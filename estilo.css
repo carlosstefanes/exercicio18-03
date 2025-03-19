@@ -1,0 +1,58 @@
+/* Todos os elementos HTML */
+*{
+    margin: 0;
+}
+
+/* id usa # e é unico do HTML */
+#flexbox1{
+    /* Formatação basica */
+    background-color: #5ceeee;
+    padding: 15px;
+    height: 500px;
+
+    /* Propiedades do Flexbox */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CLASS usa . e pode ser reutilizado no HTML*/
+.bloco-1{
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 17px;
+}
+
+.bloco-2{
+    background-color: #6060bd;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 17px;
+}
+
+.bloco-3{
+    background-color: #a52a2a;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 17px;
+}
+
+#flexbox2{
+    /* Formatação basica */
+    background-color: #44d167;
+    padding: 15px;
+    height: 300px;
+
+    /* Propiedades flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 20px;
+}
